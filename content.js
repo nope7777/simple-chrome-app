@@ -1,0 +1,1 @@
+document.body.removeEventListener("copy", add_link_to_selection);

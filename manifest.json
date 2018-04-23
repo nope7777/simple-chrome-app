@@ -1,0 +1,21 @@
+{
+	"manifest_version": 2,
+	"name": "doska.ru, ss.com - копирование без хни",
+	"description": "Убирает надоедливую ссылку при копировании текста со страницы.",
+	"version": "1.1.1",
+	"content_scripts": [
+		{
+			"matches": [
+				"*://www.ss.com/*",
+				"*://www.ss.lv/*",
+				"*://www.ss.lt/*",
+				"*://www.doska.ru/*"
+			],
+			"js": ["inject.js"],
+			"all_frames": true
+		}
+	],
+	"web_accessible_resources": [
+		"content.js"
+	]
+}

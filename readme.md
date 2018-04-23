@@ -1,0 +1,1 @@
+Simple Chrome app, removes annoying event handler from listed websites.
